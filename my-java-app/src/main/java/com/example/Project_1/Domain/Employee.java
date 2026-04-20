@@ -1,0 +1,30 @@
+package com.example.Project_1.Domain;
+
+
+public abstract class Employee implements Workable {
+
+    private String name ;
+    private int skill ;
+    private double salary ;
+
+    public Employee(String name, int skill, double salary) {
+        this.name = name;
+        this.skill = skill;
+        this.salary = salary;
+    }
+
+    public int getSkill() {
+        return skill;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public abstract String getRoleName();
+
+}
