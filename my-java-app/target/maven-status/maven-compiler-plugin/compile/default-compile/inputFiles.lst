@@ -1,3 +1,12 @@
-/workspaces/java-learning/my-java-app/src/main/java/com/example/Calculator.java
-/workspaces/java-learning/my-java-app/src/main/java/com/example/Greeter.java
-/workspaces/java-learning/my-java-app/src/main/java/com/example/Main.java
+/workspaces/java-learning/my-java-app/src/main/java/com/example/Project_1/ConsoleUI/ConsoleUI.java
+/workspaces/java-learning/my-java-app/src/main/java/com/example/Project_1/Domain/AutomatedTool.java
+/workspaces/java-learning/my-java-app/src/main/java/com/example/Project_1/Domain/Company.java
+/workspaces/java-learning/my-java-app/src/main/java/com/example/Project_1/Domain/Developer.java
+/workspaces/java-learning/my-java-app/src/main/java/com/example/Project_1/Domain/Employee.java
+/workspaces/java-learning/my-java-app/src/main/java/com/example/Project_1/Domain/Intern.java
+/workspaces/java-learning/my-java-app/src/main/java/com/example/Project_1/Domain/Project.java
+/workspaces/java-learning/my-java-app/src/main/java/com/example/Project_1/Domain/ProjectStatus.java
+/workspaces/java-learning/my-java-app/src/main/java/com/example/Project_1/Domain/Tester.java
+/workspaces/java-learning/my-java-app/src/main/java/com/example/Project_1/Domain/Workable.java
+/workspaces/java-learning/my-java-app/src/main/java/com/example/Project_1/Engine/GameEngine.java
+/workspaces/java-learning/my-java-app/src/main/java/com/example/Project_1/Main.java
