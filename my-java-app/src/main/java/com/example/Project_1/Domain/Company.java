@@ -1,6 +1,5 @@
 package com.example.Project_1.Domain;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +19,17 @@ public class Company {
 
     public void hire(Employee employee) {
         employees.add(employee);
+        cash -= employee.getSalary();
+    }
+
+    public boolean canHire(double salary) {
+        return cash >= salary;
+    }
+
+    public void payEmployees() {
+        for (Employee employee : employees) {
+            cash -= employee.getSalary();
+        }
     }
 
     public void startProject(Project project) {
@@ -51,6 +61,7 @@ public class Company {
 
         System.out.println("======================");
     }
+
     public String getName() {
         return name;
     }

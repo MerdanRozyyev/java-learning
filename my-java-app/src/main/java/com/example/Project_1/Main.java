@@ -18,8 +18,10 @@ public class Main {
         Project mobileApp = new Project("Mobile App", 30);
         Project website = new Project("Website", 20);
 
+        // Add workers to projects
         for (var employee : company.getEmployees()) {
             mobileApp.addWorker(employee);
+            website.addWorker(employee);
         }
 
         company.startProject(mobileApp);
